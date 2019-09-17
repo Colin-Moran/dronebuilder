@@ -1,0 +1,34 @@
+
+/***
+  Typeography and color schema for vue-slider
+  https://github.com/jeremyhamm/vue-slider
+***/
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+$font-family-sans-serif: 'Avenir', Helvetica, Arial, sans-serif;
+
+// Background
+$background-color: #000000;
+
+// Hamburger icon colors
+$menu-icon-color: #000000;
+
+// Menu colors
+$menu-background: #ffff;
+$menu-text: #000000;
+$menu-text-hover: #000000;
+
+.title {
+    color: black;
+}
+
+// Export Styles
+:export {
+  background: {
+    color: $background-color
+  };
+  menu: {
+    icon-color: $menu-icon-color
+  };
+}
